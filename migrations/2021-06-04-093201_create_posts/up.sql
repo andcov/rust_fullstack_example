@@ -1,0 +1,7 @@
+CREATE TABLE posts (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  userid INTEGER NOT NULL,
+  body TEXT NOT NULL,
+  postingdate DATE,
+  PRIMARY KEY (id)
+)

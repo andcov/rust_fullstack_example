@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <a href="/">Home</a><br>
+    <a href="/users">Users</a><br>
+    <a href="/newuser">Create new user</a><br><br>
+    User not found. 😢
+  </body>
+</html>

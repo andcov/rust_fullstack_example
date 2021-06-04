@@ -1,0 +1,2 @@
+ALTER TABLE posts
+MODIFY postingtime TIMESTAMP NOT NULL;

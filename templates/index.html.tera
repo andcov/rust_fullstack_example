@@ -1,0 +1,27 @@
+<html>
+<body>
+  <a href="/">Home</a><br>
+  <a href="/users">Users</a><br>
+  <a href="/newuser">Create new user</a><br><br>
+  <form action="/newpost" formmethod="GET">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="text">Post</label><br>
+    <textarea rows="3" cols="30" id="text" name="text"></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <ul>
+    {% for post in posts%}
+      <li>
+        <a href="/user/{{ post.author }}">
+          <b>{{ post.author }}</b>
+        </a> [{{ post.time }}]
+        <br>
+        {{ post.body }}
+      </li>
+      <br>
+    {% endfor %}
+  </ul>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<body>
+  <a href="/">Home</a><br>
+  <a href="/users">Users</a><br>
+  <a href="/newuser">Create new user</a><br><br>
+  
+  <ul>
+    {% for user in users%}
+      <li>
+        <a href="/user/{{ user.username }}">
+          <b>{{ user.username }}</b>
+        </a> {{ user.country }} [{{ user.age }} y.o.]
+      </li>
+      <br>
+    {% endfor %}
+  </ul>
+</body>
+</html>
