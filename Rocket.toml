@@ -1,2 +1,6 @@
+[prod]
+address="127.0.0.2"
+port=80
+
 [global.databases]
 database = { url = "mysql://doadmin:rkz2mp071urzbcvr@db-mysql-fra1-01079-do-user-8027093-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED" }

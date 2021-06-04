@@ -757,19 +757,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mysql"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "country-emoji",
- "diesel",
- "dotenv",
- "rocket",
- "rocket_contrib",
- "serde",
-]
-
-[[package]]
 name = "mysqlclient-sys"
 version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1177,6 +1164,19 @@ dependencies = [
  "state",
  "time",
  "unicode-xid 0.1.0",
+]
+
+[[package]]
+name = "rust_fullstack_example"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "country-emoji",
+ "diesel",
+ "dotenv",
+ "rocket",
+ "rocket_contrib",
+ "serde",
 ]
 
 [[package]]
